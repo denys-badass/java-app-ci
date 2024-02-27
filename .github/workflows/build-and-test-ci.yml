@@ -34,3 +34,6 @@ jobs:
 
       - name: Run test
         run: mvn test
+
+      - name: Print Message from pull request
+        run: echo "Hello from Pull Request"
